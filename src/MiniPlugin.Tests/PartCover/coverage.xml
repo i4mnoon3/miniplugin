@@ -1,0 +1,405 @@
+<PartCoverReport version="4.0" date="2012-06-11T16:12:22.3503074+08:00">
+ <File id="1" url="c:\ian\projects\miniplugin\src\MiniPlugin.Tests\PluginTests.cs" />
+ <File id="2" url="c:\ian\projects\miniplugin\src\MiniPlugin\BaseSerializable.cs" />
+ <File id="12" url="c:\ian\projects\miniplugin\src\MiniPlugin\NToolStripButton.cs" />
+ <File id="11" url="c:\ian\projects\miniplugin\src\MiniPlugin\NToolStripMenuItem.cs" />
+ <File id="3" url="c:\ian\projects\miniplugin\src\MiniPlugin\Plugin.cs" />
+ <File id="6" url="c:\ian\projects\miniplugin\src\MiniPlugin\PluginControl.cs" />
+ <File id="4" url="c:\ian\projects\miniplugin\src\MiniPlugin\PluginMainMenu.cs" />
+ <File id="5" url="c:\ian\projects\miniplugin\src\MiniPlugin\PluginMenu.cs" />
+ <File id="9" url="c:\ian\projects\miniplugin\src\MiniPlugin\PluginStatusBar.cs" />
+ <File id="10" url="c:\ian\projects\miniplugin\src\MiniPlugin\PluginStatusBarLabel.cs" />
+ <File id="7" url="c:\ian\projects\miniplugin\src\MiniPlugin\PluginToolBar.cs" />
+ <File id="8" url="c:\ian\projects\miniplugin\src\MiniPlugin\PluginToolBarButton.cs" />
+ <Assembly id="1" name="MiniPlugin.Tests" module="C:\Documents and Settings\ie185004\Local Settings\Temp\nunit20\ShadowCopyCache\9776_634750279406940362\Tests_348354484\assembly\dl3\19ab3bb9\4ae53aec_a947cd01\MiniPlugin.Tests.EXE" domain="test-domain-MiniPlugin.Tests.exe" domainIdx="1" />
+ <Assembly id="2" name="MiniPlugin" module="C:\Documents and Settings\ie185004\Local Settings\Temp\nunit20\ShadowCopyCache\9776_634750279406940362\Tests_348354484\assembly\dl3\0a03cb4e\9685faeb_a947cd01\MiniPlugin.DLL" domain="test-domain-MiniPlugin.Tests.exe" domainIdx="1" />
+ <Type asmref="1" name="MiniPlugin.Tests.MainForm" flags="0">
+  <Method name=".ctor" sig="void  ()" bodysize="25" flags="0" iflags="0" />
+  <Method name="Dispose" sig="void  (bool)" bodysize="59" flags="0" iflags="0" />
+  <Method name="InitializeComponent" sig="void  ()" bodysize="35" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="1" name="MiniPlugin.Tests.PluginTests" flags="0">
+  <Method name="Setup" sig="void  ()" bodysize="45" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" fid="1" sl="21" sc="3" el="21" ec="4" />
+   <pt visit="1" pos="1" len="21" fid="1" sl="22" sc="4" el="34" ec="14" />
+   <pt visit="1" pos="22" len="21" fid="1" sl="36" sc="4" el="36" ec="67" />
+   <pt visit="1" pos="43" len="1" fid="1" sl="37" sc="3" el="37" ec="4" />
+  </Method>
+  <Method name="TestValues" sig="void  ()" bodysize="145" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" fid="1" sl="41" sc="3" el="41" ec="4" />
+   <pt visit="1" pos="1" len="22" fid="1" sl="42" sc="4" el="42" ec="42" />
+   <pt visit="1" pos="23" len="12" fid="1" sl="43" sc="4" el="43" ec="35" />
+   <pt visit="1" pos="35" len="17" fid="1" sl="44" sc="4" el="44" ec="49" />
+   <pt visit="1" pos="52" len="12" fid="1" sl="45" sc="4" el="45" ec="41" />
+   <pt visit="1" pos="64" len="17" fid="1" sl="46" sc="4" el="46" ec="52" />
+   <pt visit="1" pos="81" len="17" fid="1" sl="48" sc="4" el="48" ec="43" />
+   <pt visit="1" pos="98" len="17" fid="1" sl="49" sc="4" el="49" ec="46" />
+   <pt visit="1" pos="115" len="17" fid="1" sl="50" sc="4" el="50" ec="48" />
+   <pt visit="1" pos="132" len="1" fid="1" sl="51" sc="3" el="51" ec="4" />
+  </Method>
+  <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="6" />
+   <pt visit="1" pos="6" len="1" />
+  </Method>
+ </Type>
+ <Type asmref="1" name="MiniPlugin.Tests.ExitCommand" flags="0">
+  <Method name="Run" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+  <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="1" name="MiniPlugin.Tests.Program" flags="0">
+  <Method name="Main" sig="void  (string[])" bodysize="27" flags="0" iflags="0" />
+  <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.AbstractCommand" flags="0">
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0" />
+  <Method name="Run" sig="void  ()" bodysize="0" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.PluginControl" flags="0">
+  <Method name="get_Command" sig="string  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="3" pos="0" len="9" />
+   <pt visit="3" pos="9" len="2" />
+  </Method>
+  <Method name="set_Command" sig="void  (string)" bodysize="9" flags="0" iflags="0" />
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0">
+   <pt visit="4" pos="0" len="7" fid="6" sl="14" sc="3" el="14" ec="25" />
+   <pt visit="4" pos="7" len="1" fid="6" sl="15" sc="3" el="15" ec="4" />
+   <pt visit="4" pos="8" len="2" fid="6" sl="16" sc="3" el="16" ec="4" />
+  </Method>
+  <Method name="CreateCommand" sig="MiniPlugin.ICommand  ()" bodysize="87" flags="0" iflags="0">
+   <pt visit="3" pos="0" len="1" fid="6" sl="19" sc="3" el="19" ec="4" />
+   <pt visit="3" pos="1" len="28" fid="6" sl="20" sc="4" el="20" ec="57" />
+   <pt visit="3" pos="29" len="3" />
+   <pt visit="0" pos="32" len="1" fid="6" sl="20" sc="58" el="20" ec="59" />
+   <pt visit="0" pos="33" len="12" fid="6" sl="21" sc="5" el="21" ec="36" />
+   <pt visit="0" pos="45" len="5" fid="6" sl="22" sc="5" el="22" ec="19" />
+   <pt visit="0" pos="50" len="3" />
+   <pt visit="0" pos="53" len="1" fid="6" sl="22" sc="20" el="22" ec="21" />
+   <pt visit="0" pos="54" len="14" fid="6" sl="23" sc="6" el="23" ec="53" />
+   <pt visit="0" pos="68" len="1" fid="6" sl="25" sc="4" el="25" ec="5" />
+   <pt visit="3" pos="69" len="4" fid="6" sl="26" sc="4" el="26" ec="16" />
+   <pt visit="3" pos="73" len="2" fid="6" sl="27" sc="3" el="27" ec="4" />
+  </Method>
+ </Type>
+ <Type asmref="2" name="MiniPlugin.BaseSerializable`1" flags="0">
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="7" fid="2" sl="14" sc="3" el="14" ec="28" />
+   <pt visit="2" pos="7" len="1" fid="2" sl="15" sc="3" el="15" ec="4" />
+   <pt visit="2" pos="8" len="2" fid="2" sl="16" sc="3" el="16" ec="4" />
+  </Method>
+  <Method name="Deserialize" sig="  (string)" bodysize="29" flags="0" iflags="0" />
+  <Method name="Deserialize" sig="  (System.IO.TextReader)" bodysize="55" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="1" fid="2" sl="24" sc="3" el="24" ec="4" />
+   <pt visit="2" pos="1" len="16" fid="2" sl="25" sc="4" el="25" ec="60" />
+   <pt visit="2" pos="17" len="13" fid="2" sl="26" sc="4" el="26" ec="47" />
+   <pt visit="2" pos="30" len="7" fid="2" sl="27" sc="4" el="27" ec="19" />
+   <pt visit="2" pos="37" len="4" fid="2" sl="28" sc="4" el="28" ec="16" />
+   <pt visit="2" pos="41" len="2" fid="2" sl="29" sc="3" el="29" ec="4" />
+  </Method>
+  <Method name="CreateNamespace" sig="System.Xml.Serialization.XmlSerializerNamespaces  ()" bodysize="42" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.NStatusStrip" flags="0">
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.NToolStripButton" flags="0">
+  <Method name=".ctor" sig="void  (string, MiniPlugin.ICommand, string, System.Windows.Forms.ToolStripItemDisplayStyle)" bodysize="35" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="7" fid="12" sl="15" sc="3" el="15" ec="108" />
+   <pt visit="1" pos="7" len="1" fid="12" sl="16" sc="3" el="16" ec="4" />
+   <pt visit="1" pos="8" len="8" fid="12" sl="17" sc="4" el="17" ec="21" />
+   <pt visit="1" pos="16" len="7" fid="12" sl="18" sc="4" el="18" ec="27" />
+   <pt visit="1" pos="23" len="9" fid="12" sl="19" sc="4" el="19" ec="30" />
+   <pt visit="1" pos="32" len="2" fid="12" sl="20" sc="3" el="20" ec="4" />
+  </Method>
+  <Method name="OnClick" sig="void  (System.EventArgs)" bodysize="49" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.NToolStripLabel" flags="0">
+  <Method name=".ctor" sig="void  (string)" bodysize="19" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.NToolStripMenuItem" flags="0">
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0" />
+  <Method name=".ctor" sig="void  (string, MiniPlugin.ICommand, string, string)" bodysize="26" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="7" fid="11" sl="19" sc="3" el="19" ec="90" />
+   <pt visit="2" pos="7" len="1" fid="11" sl="20" sc="3" el="20" ec="4" />
+   <pt visit="2" pos="8" len="8" fid="11" sl="21" sc="4" el="21" ec="21" />
+   <pt visit="2" pos="16" len="7" fid="11" sl="22" sc="4" el="22" ec="27" />
+   <pt visit="2" pos="23" len="2" fid="11" sl="23" sc="3" el="23" ec="4" />
+  </Method>
+  <Method name="OnClick" sig="void  (System.EventArgs)" bodysize="49" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.NToolStripSeparator" flags="0">
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.Plugin" flags="0">
+  <Method name="get_StatusBar" sig="MiniPlugin.PluginStatusBar  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="9" />
+   <pt visit="1" pos="9" len="2" />
+  </Method>
+  <Method name="get_Name" sig="string  ()" bodysize="23" flags="0" iflags="0" />
+  <Method name="set_StatusBar" sig="void  (MiniPlugin.PluginStatusBar)" bodysize="9" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="8" />
+  </Method>
+  <Method name="get_ToolBar" sig="MiniPlugin.PluginToolBar  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="3" pos="0" len="9" />
+   <pt visit="3" pos="9" len="2" />
+  </Method>
+  <Method name="set_ToolBar" sig="void  (MiniPlugin.PluginToolBar)" bodysize="9" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="8" />
+  </Method>
+  <Method name="get_MainMenu" sig="MiniPlugin.PluginMainMenu  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="3" pos="0" len="9" />
+   <pt visit="3" pos="9" len="2" />
+  </Method>
+  <Method name="set_MainMenu" sig="void  (MiniPlugin.PluginMainMenu)" bodysize="9" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="8" />
+  </Method>
+  <Method name="get_Author" sig="string  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="9" />
+   <pt visit="1" pos="9" len="2" />
+  </Method>
+  <Method name="set_Author" sig="void  (string)" bodysize="9" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="8" />
+  </Method>
+  <Method name="set_Name" sig="void  (string)" bodysize="9" flags="0" iflags="0" />
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="7" fid="3" sl="24" sc="3" el="24" ec="18" />
+   <pt visit="2" pos="7" len="1" fid="3" sl="25" sc="3" el="25" ec="4" />
+   <pt visit="2" pos="8" len="2" fid="3" sl="26" sc="3" el="26" ec="4" />
+  </Method>
+  <Method name="CreateMenu" sig="System.Windows.Forms.MenuStrip  ()" bodysize="47" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="1" fid="3" sl="29" sc="3" el="29" ec="4" />
+   <pt visit="2" pos="1" len="10" fid="3" sl="30" sc="4" el="30" ec="25" />
+   <pt visit="2" pos="11" len="3" />
+   <pt visit="1" pos="14" len="1" fid="3" sl="30" sc="26" el="30" ec="27" />
+   <pt visit="1" pos="15" len="14" fid="3" sl="31" sc="5" el="31" ec="30" />
+   <pt visit="1" pos="29" len="4" fid="3" sl="33" sc="4" el="33" ec="16" />
+   <pt visit="2" pos="33" len="2" fid="3" sl="34" sc="3" el="34" ec="4" />
+  </Method>
+  <Method name="CreateToolBar" sig="System.Windows.Forms.Control  ()" bodysize="47" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="1" fid="3" sl="37" sc="3" el="37" ec="4" />
+   <pt visit="2" pos="1" len="10" fid="3" sl="38" sc="4" el="38" ec="24" />
+   <pt visit="2" pos="11" len="3" />
+   <pt visit="1" pos="14" len="1" fid="3" sl="38" sc="25" el="38" ec="26" />
+   <pt visit="1" pos="15" len="14" fid="3" sl="39" sc="5" el="39" ec="29" />
+   <pt visit="1" pos="29" len="4" fid="3" sl="41" sc="4" el="41" ec="16" />
+   <pt visit="2" pos="33" len="2" fid="3" sl="42" sc="3" el="42" ec="4" />
+  </Method>
+  <Method name="CreateStatusBar" sig="System.Windows.Forms.Control  ()" bodysize="47" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" fid="3" sl="45" sc="3" el="45" ec="4" />
+   <pt visit="1" pos="1" len="10" fid="3" sl="46" sc="4" el="46" ec="26" />
+   <pt visit="1" pos="11" len="3" />
+   <pt visit="0" pos="14" len="1" fid="3" sl="46" sc="27" el="46" ec="28" />
+   <pt visit="0" pos="15" len="14" fid="3" sl="47" sc="5" el="47" ec="31" />
+   <pt visit="1" pos="29" len="4" fid="3" sl="49" sc="4" el="49" ec="16" />
+   <pt visit="1" pos="33" len="2" fid="3" sl="50" sc="3" el="50" ec="4" />
+  </Method>
+ </Type>
+ <Type asmref="2" name="MiniPlugin.PluginMainMenu" flags="0">
+  <Method name="get_Menus" sig="MiniPlugin.PluginMenu[]  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="9" />
+   <pt visit="1" pos="9" len="2" />
+  </Method>
+  <Method name="set_Menus" sig="void  (MiniPlugin.PluginMenu[])" bodysize="9" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="8" />
+  </Method>
+  <Method name="get_HasMenus" sig="bool  ()" bodysize="40" flags="0" iflags="0" />
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="7" fid="4" sl="20" sc="3" el="20" ec="26" />
+   <pt visit="1" pos="7" len="1" fid="4" sl="21" sc="3" el="21" ec="4" />
+   <pt visit="1" pos="8" len="2" fid="4" sl="22" sc="3" el="22" ec="4" />
+  </Method>
+  <Method name="Create" sig="System.Windows.Forms.MenuStrip  ()" bodysize="118" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" fid="4" sl="25" sc="3" el="25" ec="4" />
+   <pt visit="1" pos="1" len="6" fid="4" sl="26" sc="4" el="26" ec="35" />
+   <pt visit="1" pos="7" len="1" fid="4" sl="27" sc="4" el="27" ec="11" />
+   <pt visit="1" pos="8" len="8" fid="4" sl="27" sc="25" el="27" ec="30" />
+   <pt visit="1" pos="16" len="5" />
+   <pt visit="1" pos="21" len="6" fid="4" sl="27" sc="13" el="27" ec="21" />
+   <pt visit="1" pos="27" len="1" fid="4" sl="27" sc="32" el="27" ec="33" />
+   <pt visit="1" pos="28" len="7" fid="4" sl="28" sc="5" el="28" ec="30" />
+   <pt visit="1" pos="35" len="11" fid="4" sl="29" sc="5" el="29" ec="23" />
+   <pt visit="1" pos="46" len="4" />
+   <pt visit="1" pos="50" len="1" fid="4" sl="29" sc="24" el="29" ec="25" />
+   <pt visit="1" pos="51" len="14" fid="4" sl="30" sc="6" el="30" ec="32" />
+   <pt visit="1" pos="65" len="1" fid="4" sl="31" sc="5" el="31" ec="6" />
+   <pt visit="1" pos="66" len="13" fid="4" sl="32" sc="5" el="32" ec="30" />
+   <pt visit="1" pos="79" len="1" fid="4" sl="33" sc="4" el="33" ec="5" />
+   <pt visit="1" pos="80" len="6" />
+   <pt visit="2" pos="86" len="10" fid="4" sl="27" sc="22" el="27" ec="24" />
+   <pt visit="2" pos="96" len="4" />
+   <pt visit="1" pos="100" len="4" fid="4" sl="34" sc="4" el="34" ec="20" />
+   <pt visit="1" pos="104" len="2" fid="4" sl="35" sc="3" el="35" ec="4" />
+  </Method>
+  <Method name="AddItem" sig="void  (System.Windows.Forms.ToolStripItem, MiniPlugin.PluginMenu[])" bodysize="137" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" fid="4" sl="38" sc="3" el="38" ec="4" />
+   <pt visit="1" pos="1" len="1" fid="4" sl="39" sc="4" el="39" ec="11" />
+   <pt visit="1" pos="2" len="2" fid="4" sl="39" sc="25" el="39" ec="30" />
+   <pt visit="1" pos="4" len="4" />
+   <pt visit="1" pos="8" len="4" fid="4" sl="39" sc="13" el="39" ec="21" />
+   <pt visit="1" pos="12" len="1" fid="4" sl="39" sc="32" el="39" ec="33" />
+   <pt visit="1" pos="13" len="7" fid="4" sl="40" sc="5" el="40" ec="43" />
+   <pt visit="1" pos="20" len="11" fid="4" sl="41" sc="5" el="41" ec="23" />
+   <pt visit="1" pos="31" len="4" />
+   <pt visit="0" pos="35" len="1" fid="4" sl="41" sc="24" el="41" ec="25" />
+   <pt visit="0" pos="36" len="14" fid="4" sl="42" sc="6" el="42" ec="35" />
+   <pt visit="0" pos="50" len="1" fid="4" sl="43" sc="5" el="43" ec="6" />
+   <pt visit="1" pos="51" len="14" fid="4" sl="44" sc="5" el="44" ec="39" />
+   <pt visit="1" pos="65" len="4" />
+   <pt visit="1" pos="69" len="1" fid="4" sl="44" sc="40" el="44" ec="41" />
+   <pt visit="1" pos="70" len="18" fid="4" sl="45" sc="6" el="45" ec="61" />
+   <pt visit="1" pos="88" len="1" fid="4" sl="46" sc="5" el="46" ec="6" />
+   <pt visit="1" pos="89" len="18" fid="4" sl="47" sc="5" el="47" ec="60" />
+   <pt visit="1" pos="107" len="1" fid="4" sl="48" sc="4" el="48" ec="5" />
+   <pt visit="1" pos="108" len="4" />
+   <pt visit="2" pos="112" len="8" fid="4" sl="39" sc="22" el="39" ec="24" />
+   <pt visit="2" pos="120" len="4" />
+   <pt visit="1" pos="124" len="1" fid="4" sl="49" sc="3" el="49" ec="4" />
+  </Method>
+ </Type>
+ <Type asmref="2" name="MiniPlugin.PluginMenu" flags="0">
+  <Method name="get_Text" sig="string  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="4" pos="0" len="9" />
+   <pt visit="4" pos="9" len="2" />
+  </Method>
+  <Method name="get_HasMenus" sig="bool  ()" bodysize="40" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="1" fid="5" sl="23" sc="8" el="23" ec="9" />
+   <pt visit="2" pos="1" len="25" fid="5" sl="23" sc="10" el="23" ec="51" />
+   <pt visit="2" pos="26" len="2" fid="5" sl="23" sc="52" el="23" ec="53" />
+  </Method>
+  <Method name="set_Text" sig="void  (string)" bodysize="9" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="8" />
+  </Method>
+  <Method name="get_Shortcut" sig="string  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="9" />
+   <pt visit="2" pos="9" len="2" />
+  </Method>
+  <Method name="set_Shortcut" sig="void  (string)" bodysize="9" flags="0" iflags="0" />
+  <Method name="get_Image" sig="string  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="9" />
+   <pt visit="2" pos="9" len="2" />
+  </Method>
+  <Method name="set_Image" sig="void  (string)" bodysize="9" flags="0" iflags="0" />
+  <Method name="get_Menus" sig="MiniPlugin.PluginMenu[]  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="4" pos="0" len="9" />
+   <pt visit="4" pos="9" len="2" />
+  </Method>
+  <Method name="set_Menus" sig="void  (MiniPlugin.PluginMenu[])" bodysize="9" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="8" />
+  </Method>
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="7" fid="5" sl="26" sc="3" el="26" ec="22" />
+   <pt visit="2" pos="7" len="1" fid="5" sl="27" sc="3" el="27" ec="4" />
+   <pt visit="2" pos="8" len="2" fid="5" sl="28" sc="3" el="28" ec="4" />
+  </Method>
+  <Method name="Create" sig="System.Windows.Forms.ToolStripItem  ()" bodysize="80" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="1" fid="5" sl="31" sc="3" el="31" ec="4" />
+   <pt visit="2" pos="1" len="20" fid="5" sl="32" sc="4" el="32" ec="25" />
+   <pt visit="2" pos="21" len="3" />
+   <pt visit="0" pos="24" len="1" fid="5" sl="32" sc="26" el="32" ec="27" />
+   <pt visit="0" pos="25" len="8" fid="5" sl="33" sc="5" el="33" ec="38" />
+   <pt visit="2" pos="33" len="1" fid="5" sl="34" sc="11" el="34" ec="12" />
+   <pt visit="2" pos="34" len="32" fid="5" sl="35" sc="5" el="35" ec="75" />
+   <pt visit="2" pos="66" len="2" fid="5" sl="37" sc="3" el="37" ec="4" />
+  </Method>
+ </Type>
+ <Type asmref="2" name="MiniPlugin.PluginStatusBar" flags="0">
+  <Method name="get_Labels" sig="MiniPlugin.PluginStatusBarLabel[]  ()" bodysize="23" flags="0" iflags="0" />
+  <Method name="set_Labels" sig="void  (MiniPlugin.PluginStatusBarLabel[])" bodysize="9" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="8" />
+  </Method>
+  <Method name="get_HasLabels" sig="bool  ()" bodysize="40" flags="0" iflags="0" />
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="7" fid="9" sl="20" sc="3" el="20" ec="27" />
+   <pt visit="1" pos="7" len="1" fid="9" sl="21" sc="3" el="21" ec="4" />
+   <pt visit="1" pos="8" len="2" fid="9" sl="22" sc="3" el="22" ec="4" />
+  </Method>
+  <Method name="Create" sig="System.Windows.Forms.StatusStrip  ()" bodysize="100" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.PluginStatusBarLabel" flags="0">
+  <Method name="get_Text" sig="string  ()" bodysize="23" flags="0" iflags="0" />
+  <Method name="set_Text" sig="void  (string)" bodysize="9" flags="0" iflags="0" />
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="7" fid="10" sl="15" sc="3" el="15" ec="32" />
+   <pt visit="1" pos="7" len="1" fid="10" sl="16" sc="3" el="16" ec="4" />
+   <pt visit="1" pos="8" len="2" fid="10" sl="17" sc="3" el="17" ec="4" />
+  </Method>
+  <Method name="Create" sig="System.Windows.Forms.ToolStripLabel  ()" bodysize="29" flags="0" iflags="0" />
+ </Type>
+ <Type asmref="2" name="MiniPlugin.PluginToolBar" flags="0">
+  <Method name="get_Buttons" sig="MiniPlugin.PluginToolBarButton[]  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="3" pos="0" len="9" />
+   <pt visit="3" pos="9" len="2" />
+  </Method>
+  <Method name="set_Buttons" sig="void  (MiniPlugin.PluginToolBarButton[])" bodysize="9" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="8" />
+  </Method>
+  <Method name="get_HasButtons" sig="bool  ()" bodysize="40" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" fid="7" sl="17" sc="8" el="17" ec="9" />
+   <pt visit="1" pos="1" len="25" fid="7" sl="17" sc="10" el="17" ec="55" />
+   <pt visit="1" pos="26" len="2" fid="7" sl="17" sc="56" el="17" ec="57" />
+  </Method>
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="7" fid="7" sl="20" sc="3" el="20" ec="25" />
+   <pt visit="1" pos="7" len="1" fid="7" sl="21" sc="3" el="21" ec="4" />
+   <pt visit="1" pos="8" len="2" fid="7" sl="22" sc="3" el="22" ec="4" />
+  </Method>
+  <Method name="Create" sig="System.Windows.Forms.ToolStrip  ()" bodysize="100" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" fid="7" sl="25" sc="3" el="25" ec="4" />
+   <pt visit="1" pos="1" len="2" fid="7" sl="26" sc="4" el="26" ec="25" />
+   <pt visit="1" pos="3" len="10" fid="7" sl="27" sc="4" el="27" ec="19" />
+   <pt visit="1" pos="13" len="3" />
+   <pt visit="1" pos="16" len="1" fid="7" sl="27" sc="20" el="27" ec="21" />
+   <pt visit="1" pos="17" len="6" fid="7" sl="28" sc="5" el="28" ec="27" />
+   <pt visit="1" pos="23" len="1" fid="7" sl="29" sc="5" el="29" ec="12" />
+   <pt visit="1" pos="24" len="8" fid="7" sl="29" sc="28" el="29" ec="35" />
+   <pt visit="1" pos="32" len="5" />
+   <pt visit="1" pos="37" len="6" fid="7" sl="29" sc="14" el="29" ec="24" />
+   <pt visit="1" pos="43" len="1" fid="7" sl="29" sc="37" el="29" ec="38" />
+   <pt visit="1" pos="44" len="18" fid="7" sl="30" sc="6" el="30" ec="37" />
+   <pt visit="1" pos="62" len="1" fid="7" sl="31" sc="5" el="31" ec="6" />
+   <pt visit="1" pos="63" len="6" />
+   <pt visit="2" pos="69" len="9" fid="7" sl="29" sc="25" el="29" ec="27" />
+   <pt visit="2" pos="78" len="3" />
+   <pt visit="1" pos="81" len="1" fid="7" sl="32" sc="4" el="32" ec="5" />
+   <pt visit="1" pos="82" len="4" fid="7" sl="33" sc="4" el="33" ec="15" />
+   <pt visit="1" pos="86" len="2" fid="7" sl="34" sc="3" el="34" ec="4" />
+  </Method>
+ </Type>
+ <Type asmref="2" name="MiniPlugin.PluginToolBarButton" flags="0">
+  <Method name="get_Text" sig="string  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="9" />
+   <pt visit="1" pos="9" len="2" />
+  </Method>
+  <Method name="set_Text" sig="void  (string)" bodysize="9" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="8" />
+  </Method>
+  <Method name="get_Image" sig="string  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="9" />
+   <pt visit="1" pos="9" len="2" />
+  </Method>
+  <Method name="set_Image" sig="void  (string)" bodysize="9" flags="0" iflags="0" />
+  <Method name="get_Style" sig="string  ()" bodysize="23" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="9" />
+   <pt visit="1" pos="9" len="2" />
+  </Method>
+  <Method name="set_Style" sig="void  (string)" bodysize="9" flags="0" iflags="0" />
+  <Method name=".ctor" sig="void  ()" bodysize="11" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="7" fid="8" sl="20" sc="3" el="20" ec="31" />
+   <pt visit="1" pos="7" len="1" fid="8" sl="21" sc="3" el="21" ec="4" />
+   <pt visit="1" pos="8" len="2" fid="8" sl="22" sc="3" el="22" ec="4" />
+  </Method>
+  <Method name="Create" sig="System.Windows.Forms.ToolStripButton  ()" bodysize="102" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" fid="8" sl="25" sc="3" el="25" ec="4" />
+   <pt visit="1" pos="1" len="2" fid="8" sl="26" sc="4" el="26" ec="73" />
+   <pt visit="1" pos="3" len="1" fid="8" sl="27" sc="8" el="27" ec="9" />
+   <pt visit="1" pos="4" len="28" fid="8" sl="28" sc="5" el="28" ec="104" />
+   <pt visit="0" pos="32" len="1" fid="8" sl="29" sc="4" el="29" ec="5" />
+   <pt visit="0" pos="33" len="2" />
+   <pt visit="1" pos="35" len="1" fid="8" sl="29" sc="6" el="29" ec="11" />
+   <pt visit="1" pos="36" len="1" fid="8" sl="29" sc="12" el="29" ec="13" />
+   <pt visit="1" pos="37" len="1" fid="8" sl="30" sc="4" el="30" ec="5" />
+   <pt visit="1" pos="38" len="2" />
+   <pt visit="1" pos="40" len="1" />
+   <pt visit="1" pos="41" len="27" fid="8" sl="31" sc="4" el="31" ec="65" />
+   <pt visit="1" pos="68" len="2" fid="8" sl="32" sc="3" el="32" ec="4" />
+  </Method>
+ </Type>
+</PartCoverReport>

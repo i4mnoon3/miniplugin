@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.2.0.8774-RC
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPlugin", "MiniPlugin\MiniPlugin.csproj", "{777846CB-2E97-4BF4-8F1E-0F9F69A4E7FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPlugin.Tests", "MiniPlugin.Tests\MiniPlugin.Tests.csproj", "{A2D0BEBD-A66B-413F-B052-E74813D8200B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777846CB-2E97-4BF4-8F1E-0F9F69A4E7FF}.Debug|x86.Build.0 = Debug|x86
+		{777846CB-2E97-4BF4-8F1E-0F9F69A4E7FF}.Debug|x86.ActiveCfg = Debug|x86
+		{777846CB-2E97-4BF4-8F1E-0F9F69A4E7FF}.Release|x86.Build.0 = Release|x86
+		{777846CB-2E97-4BF4-8F1E-0F9F69A4E7FF}.Release|x86.ActiveCfg = Release|x86
+		{A2D0BEBD-A66B-413F-B052-E74813D8200B}.Debug|x86.Build.0 = Debug|x86
+		{A2D0BEBD-A66B-413F-B052-E74813D8200B}.Debug|x86.ActiveCfg = Debug|x86
+		{A2D0BEBD-A66B-413F-B052-E74813D8200B}.Release|x86.Build.0 = Release|x86
+		{A2D0BEBD-A66B-413F-B052-E74813D8200B}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

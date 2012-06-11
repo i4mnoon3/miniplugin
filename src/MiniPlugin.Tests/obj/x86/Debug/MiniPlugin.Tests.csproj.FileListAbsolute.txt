@@ -1,0 +1,8 @@
+C:\ian\projects\miniplugin\src\MiniPlugin.Tests\bin\Debug\MiniPlugin.Tests.exe
+C:\ian\projects\miniplugin\src\MiniPlugin.Tests\bin\Debug\MiniPlugin.Tests.pdb
+C:\ian\projects\miniplugin\src\MiniPlugin.Tests\bin\Debug\MiniPlugin.dll
+C:\ian\projects\miniplugin\src\MiniPlugin.Tests\bin\Debug\NUnit.Framework.dll
+C:\ian\projects\miniplugin\src\MiniPlugin.Tests\bin\Debug\MiniPlugin.pdb
+C:\ian\projects\miniplugin\src\MiniPlugin.Tests\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\ian\projects\miniplugin\src\MiniPlugin.Tests\obj\x86\Debug\MiniPlugin.Tests.exe
+C:\ian\projects\miniplugin\src\MiniPlugin.Tests\obj\x86\Debug\MiniPlugin.Tests.pdb

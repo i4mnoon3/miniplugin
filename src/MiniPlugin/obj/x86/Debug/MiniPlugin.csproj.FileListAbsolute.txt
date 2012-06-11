@@ -1,0 +1,7 @@
+C:\ian\projects\miniplugin\src\MiniPlugin\bin\Debug\MiniPlugin.dll
+C:\ian\projects\miniplugin\src\MiniPlugin\bin\Debug\MiniPlugin.pdb
+C:\ian\projects\miniplugin\src\MiniPlugin\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\ian\projects\miniplugin\src\MiniPlugin\obj\x86\Debug\MiniPlugin.dll
+C:\ian\projects\miniplugin\src\MiniPlugin\obj\x86\Debug\MiniPlugin.pdb
+C:\ian\projects\miniplugin\bin\MiniPlugin.dll
+C:\ian\projects\miniplugin\bin\MiniPlugin.pdb
