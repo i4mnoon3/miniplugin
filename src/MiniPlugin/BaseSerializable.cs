@@ -27,12 +27,5 @@ namespace MiniPlugin
 			reader.Close();
 			return type;
 		}
-		
-		XmlSerializerNamespaces CreateNamespace()
-		{
-			XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
-			ns.Add(string.Empty, string.Empty);
-			return ns;
-		}
 	}
 }

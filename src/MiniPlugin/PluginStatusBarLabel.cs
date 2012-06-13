@@ -5,12 +5,13 @@
 
 using System;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace MiniPlugin
 {
 	public class PluginStatusBarLabel : PluginControl
 	{
-		public string Text { get; set; }
+		[XmlAttribute("Text")] public string Text { get; set; }
 		
 		public PluginStatusBarLabel()
 		{

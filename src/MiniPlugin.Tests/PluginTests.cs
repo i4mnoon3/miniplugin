@@ -19,9 +19,11 @@ namespace MiniPlugin.Tests
 		[SetUp]
 		public void Setup()
 		{
-			plugin = Plugin.Deserialize(new StringReader(@"<Plugin Author='Ian'>
+			plugin = Plugin.Deserialize(new StringReader(@"<Plugin Name='Simple Plugin' Author='Ian'>
 	<MainMenu>
 		<Menu Text='File'>
+			<Menu Text='New'/>
+			<Menu Text='-'/>
 			<Menu Text='Exit' Command='MiniPlugin.Tests.ExitCommand'/>
 		</Menu>
 	</MainMenu>
@@ -39,11 +41,14 @@ namespace MiniPlugin.Tests
 		[Test]
 		public void TestValues()
 		{
+			Assert.AreEqual("Simple Plugin", plugin.Name);
 			Assert.AreEqual("Ian", plugin.Author);
 			var menu = plugin.CreateMenu();
 			Assert.IsInstanceOf(typeof(MenuStrip), menu);
 			var toolbar = plugin.CreateToolBar();
 			Assert.IsInstanceOf(typeof(ToolStrip), toolbar);
+			var statusBar = plugin.CreateStatusBar();
+			Assert.IsInstanceOf(typeof(Control), statusBar);
 			
 			Assert.IsNull(nullPlugin.CreateMenu());
 			Assert.IsNull(nullPlugin.CreateToolBar());
@@ -55,7 +60,6 @@ namespace MiniPlugin.Tests
 	{
 		public override void Run()
 		{
-			throw new NotImplementedException();
 		}
 	}
 }

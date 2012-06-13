@@ -12,10 +12,6 @@ namespace MiniPlugin
 	{
 		ICommand command;
 		
-		public NToolStripMenuItem()
-		{
-		}
-		
 		public NToolStripMenuItem(string text, ICommand command, string image, string shortcut)
 		{
 			this.Text = text;

@@ -4,12 +4,13 @@
 //	</file>
 
 using System;
+using System.Xml.Serialization;
 
 namespace MiniPlugin
 {
 	public class PluginControl
 	{
-		public string Command { get; set; }
+		[XmlAttribute("Command")] public string Command { get; set; }
 		
 		public PluginControl()
 		{
