@@ -1,1 +1,5 @@
 *.nupkg
+/bin
+/src/packages
+/src/**/bin
+/src/**/obj
