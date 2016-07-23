@@ -1,2 +1,4 @@
 language: csharp
 solution: src/MiniPlugin.sln
+install:
+    - nuget restore src/MiniPlugin.sln
